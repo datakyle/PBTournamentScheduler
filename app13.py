@@ -169,7 +169,7 @@ def display_schedule_history(schedule_history):
             display_tournament_schedule(all_rounds)
 
 def main():
-    st.title("Pickleball Doubles Tournament Scheduler")
+    st.title("Pickleball 2v2 Optimized Round Robin Generator")
 
     # Initialize session state
     if 'schedule_generated' not in st.session_state:
