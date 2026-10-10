@@ -169,6 +169,8 @@ def display_schedule_history(schedule_history):
             display_tournament_schedule(all_rounds)
 
 def main():
+    st.set_page_config(page_title="PB Tournament Scheduler", page_icon="favicon-64.png")
+    st.image("logo-512.png", width=96)
     st.title("Pickleball 2v2 Optimized Round Robin Generator")
 
     # Initialize session state
